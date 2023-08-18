@@ -1,0 +1,35 @@
+<html>
+<head>
+<style>
+
+    body {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 25px;
+    }
+
+    h1 {
+        color: red;
+    }
+
+</style>
+</head>
+
+
+<body>
+
+    <h1> Covid statistics </h1>
+    <br><br>
+
+    <form method="POST">
+        <p>Enter country name <br><br><input type="text" name="country" placeholder="ENTER HERE!"></p>
+        <input type=submit value="ClickMeAndHopeThisWorks">
+    </form>
+
+    <iframe width="100%" border="0" height="65%" src="{{ img }}">
+    </iframe>
+
+    <p> Visitors: {{ visitors }} </p>
+
+</body>
+</html>
